@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background:linear-gradient(white ,rgb(249, 223, 223),rgb(254, 219, 219) );
+    background-repeat:no-repeat ;
+   
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgb(243, 238, 238);
+}
+#logo{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 6px;
+}
+label{
+    cursor: pointer;
+}
+
+.form-list{
+    display: flex;
+}
+.form-item{
+    margin: 9px;
+    list-style: none;
+}
+.login-btn{
+    padding: 2px;
+}
+.content-container{
+    position: sticky;
+    top: 0px;
+}
+.content{
+    display: flex;
+    
+}
+.content-list{
+    list-style-type: none;
+    border-left: 2px solid rgb(221, 210, 210);
+    padding: 10px 62px;
+    background-color: red;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    margin: 2rem 2rem;
+}
+#find-donor{
+    width: 30%;
+    margin-right: 2rem;
+    box-shadow: 2px 2px 2px 1px rgb(253, 222, 222);
+    
+    border-radius: 4px;
+}
+#donor-img{
+    width: 70%;
+    box-shadow: 2px 2px 2px 1px rgb(253, 222, 222);
+    border-radius: 4px;
+}
+#find-donor h3{
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+.donor-form{
+    text-align: center;
+  
+}
+.donor-form input,.f select{
+    margin-left: 3rem;
+   
+}
+.f{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.f select{
+    width: 11rem;
+}
+.donor-btn{
+    padding: 4px;
+    cursor: pointer;
+    margin-top: 19px;
+    width: 6rem;
+}
+#donor-img iframe{
+    width: 100%;
+    border-radius: 4px;
+    image-resolution: from-image;
+}
+.donation{
+    margin: 4rem 2rem;
+    text-align: justify;
+}
+.donation h1{
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.registration h3, h3{
+    margin: 2rem 2rem;
+}
+.registration-flex{
+    background-color: white;
+    margin-left:2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgb(255, 188, 188);
+
+}
+.registration ul{
+    padding-left: 4rem;
+}
+.registration ul li{
+   margin-bottom: 2rem;
+   font-weight: 200;
+   
+}
+.r-img{
+    width: 40%;
+    height: auto;
+}
+p{
+    font-weight: 300;
+}
+.r-img-1{
+    width: 40%;
+    height: 25rem;
+}
+.location{
+    margin-left:2rem;
+    margin-right: 2rem;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgb(255, 188, 188);
+}
+.location select{
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.locator{
+   text-align: end;
+   padding: 23px;
+}
+.locator button{
+    width: 10%;
+    padding: 4px;
+}
+#about_us{
+    margin-top: 3rem;
+    padding: 2rem;
+    text-align: justify;
+}
+#about_us h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#about_us p{
+    margin-top: 8px;
+}
+#about_us li{
+    margin-left: 2rem;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+}
