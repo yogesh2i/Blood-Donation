@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background:linear-gradient(white ,rgb(249, 223, 223),rgb(254, 219, 219) );
@@ -36,11 +37,12 @@ label{
 }
 .content-container{
     position: sticky;
+    
     top: 0px;
 }
 .content{
     display: flex;
-    
+    justify-content: center;
 }
 .content-list{
     list-style-type: none;
@@ -48,6 +50,10 @@ label{
     padding: 10px 62px;
     background-color: red;
     cursor: pointer;
+}
+.content-list a{
+    text-decoration: none;
+    color: black;
 }
 .container{
     display: flex;
@@ -158,12 +164,12 @@ p{
     width: 10%;
     padding: 4px;
 }
-#about_us{
+#about_us,#contact_us{
     margin-top: 3rem;
     padding: 2rem;
     text-align: justify;
 }
-#about_us h1{
+#about_us h1,#gallery h1,#contact_us h1{
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -172,6 +178,18 @@ p{
 }
 #about_us li{
     margin-left: 2rem;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 6px;
+}
+.gallery-container img{
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    text-align: center;
 }
 footer{
     text-align: center;
